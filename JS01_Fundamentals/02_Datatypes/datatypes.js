@@ -1,3 +1,5 @@
+console.log("=== Datatypes in JavaScript ===");
+
 // === String ===
 const nome = "Lucas Eduardo";
 const saudacao = "Olá";
@@ -9,7 +11,7 @@ const int = 10; // Inteiro
 const float = 42.8; // Decimal
 const negativo = -120; // Negativo
 const infinito = 10 / 0; // Infinito
-const notANumber = 10 / x; // Not a Number
+// const notANumber = 10 / x; // Not a Number
 
 // === Boolean ===
 const usuarioEstaLogado = true;
@@ -65,3 +67,7 @@ console.log(novoUsuario[idSecreto]); // "xyz-123-abc"
 // Propriedades de Symbol são ignoradas por laços for...in e JSON.stringify()
 console.log(Object.keys(novoUsuario)); // ["nome"]
 console.log(JSON.stringify(novoUsuario)); // {"nome":"Carlos"}
+
+// instanceof: verificar tipo de objeto
+console.log(novoUsuario instanceof Object); // true
+console.log([] instanceof Array); // true 

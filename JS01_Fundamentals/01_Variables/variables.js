@@ -1,4 +1,4 @@
-// === VARIÁVEIS ===
+console.log("=== Variables in JavaScript ===");
 // const: constantes
 const PI = 3.14159;
 console.log(PI);
